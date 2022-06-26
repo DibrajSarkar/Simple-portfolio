@@ -11,7 +11,7 @@ h1{
 p{
     color:black;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 150px;
 }
