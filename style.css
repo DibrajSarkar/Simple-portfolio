@@ -30,6 +30,11 @@ p{
     border-radius: 10px;
      box-shadow: 10px 10px 40px gray;  
 }
+.ex-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
 .half-width image{
     width: 80%;
 }
@@ -53,4 +58,18 @@ p{
 }
 .dream-big image{
     width: 70%;
+}
+#web-dev-baby{
+    border-left: 8px solid;
+    border-image:linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+#web-dev-pro{
+    border-left: 8px solid;
+    border-image:linear-gradient(salmon,tomato);
+    border-image-slice: 1;
+}
+footer p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
 }
